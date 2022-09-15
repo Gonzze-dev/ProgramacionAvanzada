@@ -1,0 +1,12 @@
+header span
+{
+    display: block;
+    background-image: url('../src/assets/icons/buy-white.svg');
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+header
+{
+    font-size: 50px;
+}

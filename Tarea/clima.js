@@ -4,6 +4,7 @@ const pais = "ARG"
 const api_key = "bca4ea417c456fd17c8bb40d0f1e4bd2"
 const api = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${api_key}`
 
+
 const getData = async () => {
 
   try {
