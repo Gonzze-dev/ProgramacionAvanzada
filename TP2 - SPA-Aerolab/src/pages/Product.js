@@ -4,7 +4,7 @@ import Error404 from './Error404';
 const productInfo = async (products) =>
 {
     const product = findProduct(products);
-    console.log(product)
+
     const view = product? `
                 <section class="Product-detail-container">
                     <img class="Product-image"src="${product.img.hdUrl}" alt="${product.name}">

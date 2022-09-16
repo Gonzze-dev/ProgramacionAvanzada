@@ -1,6 +1,9 @@
-const Home = async (products) =>
+import ordenarMenor from "../utils/ordenarMenor";
+
+const LowestPrice = async (products) =>
 {
-    
+    products = ordenarMenor(products);
+
     const view = `<div class="Products">
                 ${products.map(product => `
                 <a href="#${product._id}">
@@ -21,4 +24,4 @@ const Home = async (products) =>
     return view;
 }
 
-export default Home;
+export default LowestPrice;
